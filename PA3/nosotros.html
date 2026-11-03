@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornello Pizza - Nosotros</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="interior">
+
+    <!-- Cabecera con posicionamiento fijo -->
+    <header class="cabecera">
+        <h1>Fornello Pizza</h1>
+        <nav class="menu">
+            <a href="index.html"><i class="fa-regular fa-heart"></i> INICIO</a>
+            <a href="nosotros.html" class="activo"><i class="fa-solid fa-users"></i> NOSOTROS</a>
+            <a href="blog.html"><i class="fa-solid fa-pencil"></i> BLOG</a>
+            <a href="galeria.html"><i class="fa-solid fa-image"></i> GALERIA</a>
+            <a href="videos.html"><i class="fa-solid fa-video"></i> VIDEOS</a>
+            <a href="contactos.html"><i class="fa-solid fa-address-book"></i> CONTACTO</a>
+        </nav>
+    </header>
+
+    <main class="contenido ancho">
+        <!-- Maquetación con CSS Grid y grid-template-areas -->
+        <div class="rejilla-nosotros">
+
+            <h2 class="area-titulo">Nosotros</h2>
+
+            <section class="area-principal">
+                <h3>¿Quiénes somos?</h3>
+                <hr>
+                <!-- Texto en columnas: ambas columnas con el mismo formato (título, texto, imagen) -->
+                <div class="texto-columnas">
+                    <article class="columna">
+                        <h4>Nuestra historia</h4>
+                        <p>Fornello Pizza nació con una idea sencilla: llevar el sabor de Italia a la mesa de cada familia. Preparamos la masa cada día, con reposo lento, y la cocinamos en horno caliente para lograr un borde crocante y un centro suave.</p>
+                        <p>Usamos tomate maduro, queso de calidad y ingredientes frescos. Cada pizza sale del horno y viaja en caja térmica para que llegue caliente.</p>
+                        <img src="img/galeria 1.jpg" alt="Nuestra pizza de pepperoni recién horneada">
+                    </article>
+                    <article class="columna">
+                        <h4>Nuestra misión</h4>
+                        <p>Compartir una pizza recién horneada con quienes más quieres. Por eso cuidamos el sabor, el tiempo de entrega y la atención a cada cliente, desde el pedido hasta la última porción.</p>
+                        <p>Nuestro equipo está formado por cocineros, repartidores y personal de atención que trabajan juntos para que cada pedido sea una buena experiencia.</p>
+                        <img src="img/galeria 2.jpg" alt="Pizza margarita de Fornello Pizza">
+                    </article>
+                </div>
+            </section>
+
+            <aside class="area-publicidad">
+                <h4>Publicidad</h4>
+                <div class="anuncio">
+                    <img src="img/galeria 4.jpg" alt="Promoción de pizza familiar Fornello Pizza">
+                    <div class="estrellas">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="precio-oferta">
+                        <p class="precio-nuevo">S/ 34.90</p>
+                        <p class="precio-antes">S/ 42.90</p>
+                    </div>
+                    <div class="anuncio-texto">
+                        <h5>Pizza Familiar + Gaseosa 1.5L</h5>
+                        <p>Delivery gratis hoy</p>
+                        <a href="galeria.html" class="boton-anuncio">PIDE AHORA</a>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="pie">
+        <p>© 2026 Fornello Pizza - Todos los derechos reservados</p>
+        <div class="redes oscuras">
+            <a href="https://x.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
